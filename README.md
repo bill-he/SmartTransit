@@ -13,3 +13,5 @@ Dependencies:
 * HttpCore jar: http://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore/4.4.1
 * HttpClient jar: http://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5
 
+### Simulator
+Simulator contains classes written in Python to allows us to simulate train positions and their interactions with other trains, train platforms, and riders. We are focusing on the Washington Metropolitan Area Transit Authority (WMATA).
