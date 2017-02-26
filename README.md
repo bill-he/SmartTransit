@@ -5,7 +5,7 @@ Algorithm: introduce artificial delays to public transporation to increase trans
 ## Sub-tools
 
 ### TrainPositionCrawler
-TrainPositionCrawler is a class written in Java to allows us to extract Train Position information from the Washington Metropolitan Area Transit Authority (WMATA) API. The resulting file is stored in json.
+TrainPositionCrawler is a class written in Java 8 to allows us to extract Train Position information from the Washington Metropolitan Area Transit Authority (WMATA) API. The resulting file is stored in json.
 
 Dependencies:
 
@@ -14,4 +14,4 @@ Dependencies:
 * HttpClient jar: http://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5
 
 ### Simulator
-Simulator contains classes written in Python to allows us to simulate train positions and their interactions with other trains, train platforms, and riders. We are focusing on the Washington Metropolitan Area Transit Authority (WMATA).
+Simulator contains classes written in Python 3.5.2 to allows us to simulate train positions and their interactions with other trains, train platforms, and riders. We are focusing on the Washington Metropolitan Area Transit Authority (WMATA).
